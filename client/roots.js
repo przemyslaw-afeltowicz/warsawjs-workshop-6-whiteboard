@@ -9,3 +9,11 @@ FlowRouter.route('/', {
         });
     }
 });
+
+FlowRouter.route('/boards/:id', {
+   action() {
+       BlazeLayout.render('Board', {
+           content: 'main'
+       });
+   }
+});

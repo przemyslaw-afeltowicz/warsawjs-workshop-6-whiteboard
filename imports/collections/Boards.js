@@ -1,3 +1,5 @@
 import { Mongo } from 'meteor/mongo';
 
-const Borads = new Mongo.collection('boards');
+const Boards = new Mongo.Collection('boards');
+
+export default Boards;
